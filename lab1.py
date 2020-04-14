@@ -4,8 +4,6 @@ from tkinter import *
 from tkinter.ttk import Combobox
 import math
 
-
-
 def decision(event):
     x0 = event.xdata
     y0 = event.ydata # получение начальных условий
@@ -106,15 +104,6 @@ def entry(_a, _b, _c, _h):
     plt.tight_layout()
     plt.axis([-10, 10, -10, 10])
     plt.show()
-
-
-
-
-
-
-
-
-
 
 
 
